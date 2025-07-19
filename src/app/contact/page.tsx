@@ -6,11 +6,11 @@ export const metadata = {
   openGraph: {
     title: 'Contact | metadata homework',
     description: 'Get in touch with us. We\'d love to hear from you and discuss how we can help with your next project.',
-    url: 'https://yourdomain.com/contact',
+    url: 'https://khmer-calendar-homework-2-95eh.vercel.app/contact',
     type: 'website',
     images: [
       {
-        url: 'https://yourdomain.com/og-image-contact.png',
+        url: 'https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png',
         width: 1200,
         height: 630,
       },
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-      {/* Navigation */}
+    
       <nav className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -47,7 +47,6 @@ export default function Contact() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -152,7 +151,6 @@ export default function Contact() {
               </form>
             </div>
 
-            {/* Contact Information */}
             <div className="space-y-8">
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
@@ -205,7 +203,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Social Links */}
               <div className="pt-6 border-t border-gray-200">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
@@ -251,8 +248,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      {/* FAQ Section */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -308,7 +303,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-blue-600 to-purple-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -334,7 +328,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">

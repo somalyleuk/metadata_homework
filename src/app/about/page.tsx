@@ -6,11 +6,11 @@ export const metadata = {
   openGraph: {
     title: 'About | metadata homework',
     description: 'Learn more about our mission, values, and the team behind our modern Next.js application.',
-    url: 'https://yourdomain.com/about',
+    url: 'https://khmer-calendar-homework-2-95eh.vercel.app/about',
     type: 'website',
     images: [
       {
-        url: 'https://yourdomain.com/og-image-about.png',
+        url: 'https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png',
         width: 1200,
         height: 630,
       },

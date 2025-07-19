@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Welcome to my metadata homework - A modern Next.js application showcasing best practices',
   openGraph: {
     title: 'Home | metadata homework',
-    description: 'Welcome to the home page of my metadata homework',
-    url: 'https://yourdomain.com',
+    descrition: 'Welcome to the home page of my metadata homework',
+    url: 'https://khmer-calendar-homework-2-95eh.vercel.app/',
     type: 'website',
     images: [
       {
-        url: 'https://yourdomain.com/og-image-home.png',
+        url: 'https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png',
         width: 1200,
         height: 630,
       },
