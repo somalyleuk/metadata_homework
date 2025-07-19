@@ -2,16 +2,16 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Home | Metadata Homework',
-  description: 'Welcome to my metadata homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces.',
-  keywords: 'Next.js, React, TypeScript, SEO, metadata, web development, modern UI',
+  description: 'Welcome to Metadata Homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces. Built with React, TypeScript, and Tailwind CSS.',
+  keywords: 'Next.js, React, TypeScript, SEO, metadata, web development, modern UI, Tailwind CSS, home page',
   authors: [{ name: 'Metadata Homework Team' }],
   creator: 'Metadata Homework',
   publisher: 'Metadata Homework',
   robots: 'index, follow',
   openGraph: {
     title: 'Home | Metadata Homework',
-    description: 'Welcome to my metadata homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces.',
-    url: 'https://khmer-calendar-homework-2-95eh.vercel.app/',
+    description: 'Welcome to Metadata Homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces. Built with React, TypeScript, and Tailwind CSS.',
+    url: 'https://khmer-calendar-homework-2-95eh-git-master-somalyleuks-projects.vercel.app/',
     siteName: 'Metadata Homework',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
         url: 'https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png',
         width: 1200,
         height: 630,
-        alt: 'Metadata Homework - Modern Next.js Application',
+        alt: 'Metadata Homework Home Page - Modern Next.js Application',
         type: 'image/png',
       },
     ],
@@ -28,13 +28,13 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Home | Metadata Homework',
-    description: 'Welcome to my metadata homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces.',
+    description: 'Welcome to Metadata Homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces. Built with React, TypeScript, and Tailwind CSS.',
     images: ['https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png'],
     creator: '@metadatahomework',
     site: '@metadatahomework',
   },
   alternates: {
-    canonical: 'https://khmer-calendar-homework-2-95eh.vercel.app/',
+    canonical: 'https://khmer-calendar-homework-2-95eh-git-master-somalyleuks-projects.vercel.app/',
   },
 };
 
