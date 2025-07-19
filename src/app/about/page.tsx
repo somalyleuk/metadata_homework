@@ -1,20 +1,40 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About | metadata homework',
-  description: 'Learn more about our mission, values, and the team behind our modern Next.js application.',
+  title: 'About | Metadata Homework',
+  description: 'Learn more about our mission, values, and the team behind our modern Next.js application. Discover how we create exceptional web experiences with cutting-edge technology.',
+  keywords: 'about us, mission, values, team, Next.js, web development, modern technology',
+  authors: [{ name: 'Metadata Homework Team' }],
+  creator: 'Metadata Homework',
+  publisher: 'Metadata Homework',
+  robots: 'index, follow',
   openGraph: {
-    title: 'About | metadata homework',
-    description: 'Learn more about our mission, values, and the team behind our modern Next.js application.',
+    title: 'About | Metadata Homework',
+    description: 'Learn more about our mission, values, and the team behind our modern Next.js application. Discover how we create exceptional web experiences with cutting-edge technology.',
     url: 'https://khmer-calendar-homework-2-95eh.vercel.app/about',
+    siteName: 'Metadata Homework',
     type: 'website',
+    locale: 'en_US',
     images: [
       {
         url: 'https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png',
         width: 1200,
         height: 630,
+        alt: 'About Metadata Homework - Our Mission and Values',
+        type: 'image/png',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About | Metadata Homework',
+    description: 'Learn more about our mission, values, and the team behind our modern Next.js application. Discover how we create exceptional web experiences with cutting-edge technology.',
+    images: ['https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png'],
+    creator: '@metadatahomework',
+    site: '@metadatahomework',
+  },
+  alternates: {
+    canonical: 'https://khmer-calendar-homework-2-95eh.vercel.app/about',
   },
 };
 

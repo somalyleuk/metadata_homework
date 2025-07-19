@@ -1,20 +1,40 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Home | metadata homework',
-  description: 'Welcome to my metadata homework - A modern Next.js application showcasing best practices',
+  title: 'Home | Metadata Homework',
+  description: 'Welcome to my metadata homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces.',
+  keywords: 'Next.js, React, TypeScript, SEO, metadata, web development, modern UI',
+  authors: [{ name: 'Metadata Homework Team' }],
+  creator: 'Metadata Homework',
+  publisher: 'Metadata Homework',
+  robots: 'index, follow',
   openGraph: {
-    title: 'Home | metadata homework',
-    descrition: 'Welcome to the home page of my metadata homework',
+    title: 'Home | Metadata Homework',
+    description: 'Welcome to my metadata homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces.',
     url: 'https://khmer-calendar-homework-2-95eh.vercel.app/',
+    siteName: 'Metadata Homework',
     type: 'website',
+    locale: 'en_US',
     images: [
       {
         url: 'https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png',
         width: 1200,
         height: 630,
+        alt: 'Metadata Homework - Modern Next.js Application',
+        type: 'image/png',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Home | Metadata Homework',
+    description: 'Welcome to my metadata homework - A modern Next.js application showcasing best practices in metadata management, SEO optimization, and beautiful user interfaces.',
+    images: ['https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png'],
+    creator: '@metadatahomework',
+    site: '@metadatahomework',
+  },
+  alternates: {
+    canonical: 'https://khmer-calendar-homework-2-95eh.vercel.app/',
   },
 };
 
